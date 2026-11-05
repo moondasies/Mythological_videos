@@ -1,0 +1,13 @@
+# secrets
+.env
+.env.*
+!.env.example
+# heavy / generated media
+renders/**/*.mp4
+scenes/**/*.png
+audio/**/*.wav
+audio/**/*.mp3
+!audio/voice_tests/approved/*
+__pycache__/
+*.pyc
+node_modules/

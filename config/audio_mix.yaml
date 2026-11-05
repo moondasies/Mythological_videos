@@ -1,0 +1,5 @@
+narration_lufs: -16
+music_under_voice_db: -22
+music_no_voice_db: -14
+pre_reveal_silence_s: 0.8
+licensing: original_or_licensed_only

@@ -1,0 +1,6 @@
+provider: elevenlabs          # untested — pending network allowlist + key
+api_key_env: ELEVENLABS_API_KEY
+voice_id_env: ELEVENLABS_VOICE_ID
+model: TBD_after_audition     # will record exact model id after testing Hindi quality
+settings: {stability: TBD, similarity_boost: TBD, style: TBD, speed: TBD}
+pronunciation_dictionary: config/pronunciation_hi.yaml

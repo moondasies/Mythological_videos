@@ -1,0 +1,6 @@
+channel:
+  working_title: "रहस्य की बातें — रामायण"
+  language: hi-IN
+  script: devanagari
+  phase: pilot            # pilot | batch (batch requires Gate 4 approval)
+  auto_publish: false     # never change without explicit approval

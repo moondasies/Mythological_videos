@@ -1,0 +1,8 @@
+font: "Noto Sans Devanagari"   # to be installed
+weight: bold
+size_px: 64
+max_lines: 2
+safe_area: {bottom_margin_px: 380, side_margin_px: 90, right_ui_margin_px: 160}
+color: "#FFFFFF"
+outline: {color: "#1E2A4A", width_px: 4}
+highlight_color: "#E39B2D"
