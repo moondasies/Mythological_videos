@@ -450,7 +450,7 @@ def build():
     A["tj_st"] = trijata_standing()
     A["rk2"] = rakshasi_ring([(820, 2010, 1.2, -1), (1000, 2060, 1.25, -1), (1180, 1990, 1.15, -1)])
     A["subs"] = [(a, b, text_block(s, FONT_SUB, 56, max_w=960)) for a, b, s in SUBS]
-    A["wm"] = text_block("नमूना · SAMPLE — placeholder art, no voiceover", FONT_SUB, 28, fill=(255, 255, 255), sw=2)
+    A["wm"] = text_block("नमूना · SAMPLE — placeholder art · temporary AI voice", FONT_SUB, 28, fill=(255, 255, 255), sw=2)
     card = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     panel = Image.new("RGBA", (860, 420), (0, 0, 0, 0))
     ImageDraw.Draw(panel).rounded_rectangle((0, 0, 859, 419), 36, fill=(14, 20, 40, 190), outline=(226, 196, 120, 200), width=3)
